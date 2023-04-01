@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="171dp"
+            android:layout_height="71dp"
+            android:layout_margin="7dp"
+            android:layout_marginBottom="1sp"
+            android:paddingStart="7dp"
+            android:src="@drawable/item_upwork" />
+
+        <!--    <ImageView
+                android:id="@+id/manager_portal_btn"
+                android:layout_width="122dp"
+                android:layout_height="62dp"
+                android:layout_margin="14dp"
+                android:layout_marginBottom="1sp"
+                android:src="@drawable/admin" />-->
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:gravity="center"
+        android:src="@drawable/upwrk_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="31dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingTop="6dp"
+            android:text="A Global Talent Network For Hire"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:text="Find Professionals And agencies for any project"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/email_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="18dp"
+            android:paddingTop="11dp"
+            android:text="jani@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            />
+
+        <EditText
+            android:id="@+id/password_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="18dp"
+            android:paddingTop="11dp"
+            android:text="11221122"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            />
+
+        <Button
+            android:id="@+id/login_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#50C2C9"
+            android:text="Log In"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/newuser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="New to upwork Sign Up"
+            android:textColor="#50C2C9"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
